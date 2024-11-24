@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 import useDetectKeyboardOpen from "use-detect-keyboard-open";
 import AddToCollectionModel from "@/components/AddToCollectionModel";
 import { ToastContainer } from "react-toastify";
-import type { Metadata } from "nex";
+import type { Metadata } from "next";
 
 export async function generateMetadata() {
   return {
