@@ -11,10 +11,8 @@ import "react-toastify/dist/ReactToastify.css";
 import useDetectKeyboardOpen from "use-detect-keyboard-open";
 import AddToCollectionModel from "@/components/AddToCollectionModel";
 import { ToastContainer } from "react-toastify";
-import type { Metadata } from "next";
 
-export async function generateMetadata() {
-  return {
+export const metadata {
       title: "DiGi Moda - Digital Platform for new generations",
       description: "DiGi Moda - Digital Platform for new generations",
       keywords: [
@@ -95,7 +93,6 @@ export async function generateMetadata() {
         ]
       }
     };
-  }
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
