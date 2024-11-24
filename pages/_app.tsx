@@ -12,7 +12,7 @@ import useDetectKeyboardOpen from "use-detect-keyboard-open";
 import AddToCollectionModel from "@/components/AddToCollectionModel";
 import { ToastContainer } from "react-toastify";
 
-export const metadata {
+export const metadata = {
       title: "DiGi Moda - Digital Platform for new generations",
       description: "DiGi Moda - Digital Platform for new generations",
       keywords: [
