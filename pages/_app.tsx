@@ -15,7 +15,7 @@ import type { Metadata } from "nex";
 
 export async function generateMetadata() {
   return {
-      title: "DiGi Moda - Digital Platform for new generations"
+      title: "DiGi Moda - Digital Platform for new generations",
       description: "DiGi Moda - Digital Platform for new generations",
       keywords: [
         "DiGi Moda",
